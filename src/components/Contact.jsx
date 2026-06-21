@@ -1,6 +1,6 @@
 const Contact = () => {
   const contactInfo = {
-    email: "danysaputra2682010@gmail.com", 
+    email: "mrtechnix@danydevid.my.id", 
     location: "Pasuruan, Indonesia",
     uptime: "13:00 - 22:00 (GMT+7)",
     status: "Open to Work / Freelance"
@@ -49,7 +49,7 @@ const Contact = () => {
             <div className="flex justify-between items-center">
               <span className="text-[#757575] text-xs uppercase font-bold">Preferred Connection</span>
               <div className="flex space-x-4">
-                <a href="https://github.com/daniwebdevid" className="text-[#81B29A] hover:underline text-xs">GitHub</a>
+                <a href="https://github.com/mrtechnix" className="text-[#81B29A] hover:underline text-xs">GitHub</a>
                 <a href="https://discord.com/uservpr" className="text-[#81B29A] hover:underline text-xs">Discord</a>
               </div>
             </div>

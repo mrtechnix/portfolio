@@ -1,4 +1,4 @@
-import { PROJECT_DATA } from "../constants/projects"; // Sesuaikan path-nya
+import { PROJECT_DATA } from "../constants/projects"; 
 
 const Projects = () => {
   return (
@@ -8,7 +8,6 @@ const Projects = () => {
           [ 03. active_projects ]
         </h2>
 
-        {/* Tambahkan flex atau grid col biar ada jarak antar project */}
         <div className="flex flex-col gap-8"> 
           {PROJECT_DATA.map((p, i) => (
             <div key={i} className="bg-[#1E1E1E] border border-[#333] p-6 md:p-8 rounded-sm hover:border-[#81B29A] transition-colors duration-300">
